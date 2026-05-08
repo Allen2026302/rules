@@ -1,0 +1,4 @@
+AND,((NETWORK,UDP),(DOMAIN-SUFFIX,chatgpt.com))
+AND,((NETWORK,UDP),(DOMAIN-SUFFIX,openai.com))
+AND,((NETWORK,UDP),(DOMAIN-SUFFIX,oaistatic.com))
+AND,((NETWORK,UDP),(DOMAIN-SUFFIX,oaiusercontent.com))

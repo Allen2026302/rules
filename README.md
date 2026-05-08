@@ -7,8 +7,14 @@ Personal rule sets for Surge and Mihomo.
 - `ai/openai.list`
 - `ai/claude.list`
 - `ai/gemini.list`
+- `surge/openai-udp.list`
+- `surge/claude-udp-reject.list`
+- `surge/gemini-udp.list`
+- `mihomo/openai-udp.list`
+- `mihomo/claude-udp-reject.list`
+- `mihomo/gemini-udp.list`
 
-These files use plain classical rule lines such as `DOMAIN`, `DOMAIN-SUFFIX`, and `DOMAIN-KEYWORD`.
+The `ai/` files are shared by Surge and Mihomo. The `surge/` and `mihomo/` UDP files are split because Surge uses `PROTOCOL,UDP`, while Mihomo uses `NETWORK,UDP`.
 
 ## URLs
 
@@ -16,4 +22,10 @@ These files use plain classical rule lines such as `DOMAIN`, `DOMAIN-SUFFIX`, an
 https://cdn.jsdelivr.net/gh/Allen2026302/rules@main/ai/openai.list
 https://cdn.jsdelivr.net/gh/Allen2026302/rules@main/ai/claude.list
 https://cdn.jsdelivr.net/gh/Allen2026302/rules@main/ai/gemini.list
+https://cdn.jsdelivr.net/gh/Allen2026302/rules@main/surge/openai-udp.list
+https://cdn.jsdelivr.net/gh/Allen2026302/rules@main/surge/claude-udp-reject.list
+https://cdn.jsdelivr.net/gh/Allen2026302/rules@main/surge/gemini-udp.list
+https://cdn.jsdelivr.net/gh/Allen2026302/rules@main/mihomo/openai-udp.list
+https://cdn.jsdelivr.net/gh/Allen2026302/rules@main/mihomo/claude-udp-reject.list
+https://cdn.jsdelivr.net/gh/Allen2026302/rules@main/mihomo/gemini-udp.list
 ```
